@@ -1,6 +1,6 @@
 using System;
 
-namespace Solar-System-Lib
+namespace SolarLibrary
 {
   public class Star
   {
