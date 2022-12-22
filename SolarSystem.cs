@@ -6,7 +6,7 @@ namespace SolarLibrary
   {
     public string name;
     public string notes;
-    public Star[] stars = new Star[4];
+    public Star star = new Star();
     public Planet[] planets = new Planet[99];
   }
 }
