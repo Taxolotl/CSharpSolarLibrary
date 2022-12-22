@@ -1,0 +1,233 @@
+using System;
+
+namespace SolarLibrary
+{
+  public class Systems
+  {
+    Star roreastar = new Star();
+    roreastar.name = "Rore-A*";
+    roreastar.type = "M-Type Main Sequence (Orange-Red)";
+    roreastar.age = 797D;
+    roreastar.size = 0.3D;
+    roreastar.radius = 0.5D;
+    roreastar.habZoneIn = 0.5D;
+    roreastar.habZoneOut = 1.26D;
+    roreastar.habZoneWidth = 1.21D;
+		
+		Planet webeld = new Planet();
+		
+    webeld.name = "Webeld";
+    webeld.distance = 0.5D;
+    webeld.type = "Gas Dwarf";
+    webeld.skyColor = "Dark brown, violet and magenta";
+    webeld.moons[0] = "14 large moons, 51 total";
+    webeld.moons[1] = "Pabp\'rpoa";
+    webeld.moons[2] = "Afliyl";
+    webeld.moons[3] = "Lest Ec";
+    webeld.moons[4] = "Dimbi";
+    webeld.moons[5] = "Hacerico";
+    webeld.moons[6] = "Clount";
+    webeld.moons[7] = "Teredse-n";
+    webeld.moons[8] = "Malimic\'h";
+    webeld.moons[9] = "Scere";
+    webeld.moons[10] = "Hoamel";
+    webeld.moons[11] = "Ren-ta";
+    webeld.moons[12] = "Se\'devo";
+    webeld.moons[13] = "Ler\'icop";
+    webeld.moons[14] = "Ricalant";
+    webeld.moons[15] = "Wrehir";
+    webeld.rings = true;
+    webeld.size = 1.1D;
+    webeld.radius = 4354;
+    webeld.gravity = 0.09D;
+    webeld.tempHigh = 1563;
+    webeld.tempLow = 300;
+    webeld.tempAvg = 932;
+    webeld.water = "No water";
+    webeld.earthLife = false;
+    webeld.dayLength = "241 earth days";
+    webeld.yearLength = "20 earth years";
+    webeld.seasons = false;
+		Animal webeldAnimNote = new Animal();
+		webeldAnimNote.notes = "No life on planet";
+		webeld.animals[0] = webeldAnimNote;
+		
+		Planet homaner = new Planet();
+		
+		homaner.name = "Homan'er";
+		homaner.distance = 0.8D;
+		homaner.type = "Water World";
+		homaner.skyColor = "Brown";
+		homaner.moons[0] = "Only one moon, which is tidally locked";
+		homaner.moons[1] = "Icamu";
+		homaner.rings = false;
+		homaner.size = 0.45D;
+		homaner.radius = 1781;
+		homaner.gravity = 0.93D;
+		homaner.tempHigh = 115;
+		homaner.tempLow = 32;
+		homaner.tempAvg = 74;
+		homaner.water = "100% surface water";
+		homaner.earthLife = true;
+		homaner.dayLength = "31 earth hours";
+		homaner.yearLength = "219 earth days";
+		homaner.seasons = true;
+		
+		Animal atran = new Animal();
+		atran.appearance = "A colossal, hybrid, quadrupedal aquatic creature with a dragon head, pig ears, and a camel-like mouth.\nIt has a very short neck, and its shoulders are spike-tipped. It has a broad torso, and a fat stomach. It has four long, muscular legs that end in two-toed hooves and an anteater tail.\nThe Atr-an's body is covered in thin scales.\nIt has the markings of a skunk in blue-grey and dark blue.";
+		atran.name = "Atr-an";
+		atran.height = "104 feet";
+		atran.lifespan = "12 years";
+		atran.maturity = "3 years";
+		atran.breedingAge = "2 years";
+		atran.young = "37 eggs every 4 years";
+		atran.population = "Common";
+		atran.temperament = "Competitive";
+		atran.diet = "Small fish";
+		atran.familyLife = "Competition for mates is very mild.\nThe Atr-an is left to fend for itself at birth.";
+		atran.general = "They have very poor hearing.\nThey can accelerate to full speed very quickly.\nThey can survive in temperatures up to 149 degrees Celcius.\nWhen highly stressed, they can collapse and die easily.";
+		homaner.animals[0] = atran;
+    
+    Animal sunge = new Animal();
+		sunge.appearance = "A tiny, hybrid, aquatic creature with a manatee head, and a crocodilian snout.\nIt has a shark body with eight very large shark-like fins, an enormous dorsal fin and a walrus tail.\nThe Sunge's body is covered in rubbery skin, and thin scales.\nIt is brown, lime green and black.";
+		sunge.name = "Sunge";
+		sunge.height = "4 inches";
+		sunge.lifespan = "61 years";
+		sunge.maturity = "18 years";
+		sunge.breedingAge = "11 years";
+		sunge.young = "365 eggs every year";
+		sunge.population = "Many";
+		sunge.temperament = "Cautious";
+		sunge.diet = "Crusteaceans, small fish, and microorganisms.";
+		sunge.familyLife = "Competition between males is vicious.\nThe Sunge normally lives in small packs.";
+		sunge.general = "They use their tongues for taste and smell.\nThey can survive in temperatures as low as -103 degrees Celcius.\nThey use scents to communicate.\nThey can regenerate severed limbs.\nThey are notoriously stubborn.";
+		homaner.animals[1] = sunge;
+    
+    Animal ceresp = new Animal();
+		ceresp.appearance = "A colossal, hybrid, octopedal aquatic creature with a deer head covered with bony ridges, and a camel-like mouth.\nIt has an ostrich neck, and its shoulders are drooped. It has a badger torso with a wasp waist. It has eight stumpy, bird legs and a muscular tail.\nThe Ceresp's back is covered in thin scales, while its belly is covered in thick skin that releases oily secretions.\nIt is mostly dark green, with dull yellow sections and brown highlights, while its head is yellow-green with chocolate brown rings.";
+		ceresp.name = "Ceresp";
+		ceresp.height = "76 feet";
+		ceresp.lifespan = "33 years";
+		ceresp.maturity = "10 years";
+		ceresp.breedingAge = "6 years";
+		ceresp.young = "84 eggs a year";
+		ceresp.population = "Plentiful";
+		ceresp.temperament = "Disdainful";
+		ceres-.diet = "Plants";
+		ceresp.familyLife = "Whenever it's ready to mate, the Ceresp finds as many new partners as it can. The Ceresp is left to fend for itself at birth.";
+		ceresp.general = "They are blind.\nThey can easily adapt to environmental changes.\nThey communicate using bleats and grunts.\nThe males are generally larger.";
+		homaner.animals[2] = ceresp;
+    
+    Animal aghas = new Animal();
+    aghas.appearance = "A medium, hybrid, humanoid aquatic creature with a hammerhead shark head, goat ears, and a pointed snout.\nIt has a giraffe-like neck, and two medium-length, fragile arms. It has a swollen torso. It has two short elephant legs with two-toed hooves and an elephant tail.\nThe Aghas's whole body is covered in thick slime, except its tail which is covered in thin scales.\nIt is pine on one half, and mousey brown dark green on the other; the two areas are separated by a thin, indigo line. Meanwhile, its face is dark gray with vivid green spirals.";
+    aghas.name = "Aghas";
+    aghas.height = "3 feet";
+    aghas.lifespan = "2 years";
+    aghas.maturity = "1 year";
+    aghas.breedingAge = "1 month";
+    aghas.young = "279 eggs every 2 weeks";
+    aghas.population = "Overpopulated";
+    aghas.temperament = "Flighty";
+    aghas.diet = "Crustaceans, cetaceans";
+    aghas.familyLife = "The appearance changes slightly when they are ready to breed.\nThe Aghas normally lives in big packs.";
+    aghas.general = "They are blind.\nThey are excellent climbers.\nThey communicate using quacks and snorts.\nThe Aghas is fast evolving.";
+    homaner.animals[3] = aghas;
+    
+    Animal hanohi= new Animal();
+    hanohi.appearance = "A medium, hybrid, quadrupedal aquatic creature with an egg-shaped head, two fly eyes, no visible ears, no visible nose, and a crocodilian snout.\nIt has a stocky neck, and its shoulders are narrow. It has a sleek, powerful torso. It has two long, muscular forelegs that end in long-fingered hands, two long, heavy hind legs and no tail.\nThe Hano-hi's head and back are covered in thin scales, while the rest of its body is covered in scales.\nIt has the markings of a red panda in dark green, light purple, yellow-green and green-blue.";
+    hanohi.name = "Hano-Hi";
+    hanohi.height = "4 feet";
+    hanohi.lifespan = "35 years";
+    hanohi.maturity = "11 years";
+    hanohi.breedingAge = "6 years";
+    hanohi.young = "35 every 4 years";
+    hanohi.population = "Few";
+    hanohi.temperament = "Nonchalant";
+    hanohi.diet = "Microorganisms";
+    hanohi.familyLife = "The Hano-hi finds a new mate during each breeding period. \nFemales get overly excited in the run up to the breeding season.\nThe Hano-hi family group is big, has a strong bond and is led by the breeding pair. \nChild rearing is largely handled by the father.";
+    hanohi.general = "They have a poor sense of taste.\nThe Hano-hi is fast evolving.";
+    homaner.animals[4] = hanohi;
+    
+    Animal scener = new Animal();
+    scener.appearance = "A tiny, hybrid, aquatic creature with a swordfish head, eight large light brown eyes, and a long jaw filled with both sharp and blunt teeth.\nIt has an elegant neck, and it has two medium-length, human arms. It has a barrel-chested torso with a banded waist. It has five medium-length, canine legs and no tail.\nThe Scener's body is covered in thin scales.\nMost of its body is light blue, while the rest of its body is dark gray.";
+    scener.name = "Scener";
+    scener.height = "4 inches";
+    scener.lifespan = "15 years";
+    scener.maturity = "6 years";
+    scener.breedingAge = "3 years";
+    scener.young = "141 every 4 years";
+    scener.population = "Few";
+    scener.temperament = "Skittish";
+    scener.diet = "Microorganisms, carrion";
+    scener.familyLife = "Whenever it's ready to mate, the Scener finds as many new partners as it can. The young Scener males normally leave their families and live alone when they are mature.";
+    scener.general = "It can curl itself up into a defensive ball.";
+    homaner.animals[5] = scener;
+
+    Animal tethre = new Animal();
+    tethre.appearance = "A small, hybrid, aquatic creature with a rat head covered with spikes, no eyes, no ears, no visible nose, and a pointed snout.\nIt has a very short neck, its shoulders are narrow, and it has eight long, muscular arms that end in two-toed hooves. It has a tiger torso. It has six short, elephant legs and an anteater tail.\nThe Tethre's head and back are covered in thin scales, while the rest of its body is covered in leathery skin.\nIt is dark gray, pastel pink and lime green.";
+    tethre.name = "Tethre";
+    tethre.height = "16 inches";
+    tethre.lifespan = "231 years";
+    tethre.maturity = "99 years";
+    tethre.breedingAge = "53 years";
+    tethre.young = "458 eggs every 32 years";
+    tethre.population = "Excessive";
+    tethre.temperament = "Irritable";
+    tethre.diet = "Plants, microorganisms";
+    tethre.familyLife = "The Tethre is known to mate with other species. The put on elaborate displays to attract a mate.\nThe Tethre normally lives in large packs.";
+    tethre.general = "Their sense of touch is very weak.\nThey can swim at 24 mph / 38.6 kph without tiring for up to 30 minutes.\nThey can be found in almost every region.\nThey can communicate using ultrasound.\nThey are impervious to poison.\nThey are notoriously lazy";
+    homaner.animals[6] = tethre;
+  
+    Animal feene = new Animal();
+    feene.appearance = "A colossal, hybrid, aquatic creature with a turtle head, two snake eyes on the back of its head, a mouse nose, and a pair of piercing mandibles.\nIt has a goose neck, and has no arms. It has a heavy-set torso. It has three long, stork legs and a scorpion tail.\nThe Feene's back is covered in thin scales, while the rest of its body is covered in fish scales.\nIt is completely light red.";
+    feene.name = "Feene";
+    feene.height = "115 feet";
+    feene.lifespan = "18 years";
+    feene.maturity = "5 years";
+    feene.breedingAge = "4 years";
+    feene.young = "271 eggs every 6 years";
+    feene.population = "Overpopulated";
+    feene.temperament = "Skittish";
+    feene.diet = "Microorganisms, Crusteaceans";
+    feene.familyLife = "The Feene is known to mate and produce offspring with other species.\nCompetition between males is often deadly; the winning male earns breeding rights; the loser often dies from his wounds.\nThe Feene family group is massive and is led by the eldest female. \nChild rearing is entirely handled by the eldest male.";
+    feene.general = "Their hearing is strong enough to clearly hear heartbeats from a distance.\nThey can lift 8 times their own weight.\nThey can communicate using infrasound.\nThey are a parasitic species that leeches off another.";
+    homaner.animals[7] = feene;
+
+    Animal sucekest = new Animal();
+    sucekest.appearance = "A colossal, hybrid, aquatic creature with a goat head, two human eyes, drooping ears, a bulbous nose, and a short snout.\nIt has a giraffe-like neck, and has no arms. It has a large ribcage, and a droopy stomach. It has nine chimpanzee legs with small paws and a feline tail.\nThe Sucekest's body is covered in armour plating.\nIt has the markings of a panda in mahogany and yellow-green.";
+    sucekest.name = "Sucekest";
+    sucekest.height = "105 feet";
+    sucekest.lifespan = "18 years";
+    sucekest.maturity = "5 years";
+    sucekest.breedingAge = "2 years";
+    sucekest.young = "113 eggs per year";
+    sucekest.population = "Common";
+    sucekest.temperament = "Intolerant";
+    sucekest.diet = "Plants";
+    sucekest.familyLife = "Competition between males is tough; less dominant males often have use stealth and cunning to avoid more powerful males and attract mates.\nThe Sucekest is left to fend for itself at birth.";
+    sucekest.general = "Are active mostly during the night.\nThey can communicate using infrasound.\nThey are much stronger than they appear\nThey have an affinity for shiny objects.";
+    homaner.animals[8] = sucekest;
+    
+    Animal roreras = new Animal();
+    roreras.appearance = "A medium, hybrid, aquatic creature with a catfish head covered with spikes, two beady blue-green eyes, cat ears, no visible nose, and a crocodilian snout.\nIt has a wide neck, and it has two long, gorilla arms that end in large hands. It has a lion torso. It has ten short, insect legs with spikes and a rat tail.\nThe Roreras's body is covered in tough scales and thin hairs.\nIt is blue, light blue and cream.";
+    roreras.name = "Roreras";
+    roreras.height = "3 feet";
+    roreras.lifespan = "2 years";
+    roreras.maturity = "5 weeks";
+    roreras.breedingAge = "12 months";
+    roreras.young = "159 every 5 months";
+    roreras.population = "Common";
+    roreras.temperament = "Nonchalant";
+    roreras.diet = "Carrion";
+    roreras.familyLife = "The put on elaborate displays to attract a mate.\nThe young Roreras females normally leave their families and live alone when they are mature.";
+    roreras.general = "They are usually found at high altitudes.\nA charging Roreras is strong enough to throw a grown man off his feet.";
+    homaner.animals[9] = roreras;
+    
+		SolarSystem rore = new SolarSystem();
+		rore.notes = "Near a black hole.";
+		rore.stars[0] = roreastar;
+		rore.planets[0] = webeld;
+		rore.planets[1] = homaner;
+		rore.name = "Rore";
+  }
+}
